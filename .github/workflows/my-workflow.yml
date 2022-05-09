@@ -5,6 +5,9 @@ on:
     types: [labeled]
 
 jobs:
+  permissions:
+    issues: write
+
   action:
     runs-on: ubuntu-latest
 
