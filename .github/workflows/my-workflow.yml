@@ -5,12 +5,12 @@ on:
     types: [labeled]
 
 jobs:
-  permissions:
-    issues: write
-
   action:
     runs-on: ubuntu-latest
 
+    permissions:
+      issues: write
+   
     steps:
       - uses: actions/checkout@v1
 
