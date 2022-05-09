@@ -1,15 +1,15 @@
-name: Docker Actions
-
-on: [push]
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v1
-
-      - name: hello-action
-        uses: ./.github/actions/hello-world
-        with:
-          thirdGreeting: "Learning Lab User"
+#name: Docker Actions
+#
+#on: [push]
+#
+#jobs:
+#  build:
+#    runs-on: ubuntu-latest
+#
+#    steps:
+#      - uses: actions/checkout@v1
+#
+#      - name: hello-action
+#        uses: ./.github/actions/hello-world
+#        with:
+#          thirdGreeting: "Learning Lab User"
